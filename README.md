@@ -25,9 +25,6 @@ Below is the simplified architecture of this project:
 
 - **Frontend:** HTML, CSS, JavaScript
 - **Cloud:** AWS S3 + CloudFront
-- **CI/CD:** GitHub Actions
-- **Containerization:** Docker (for local testing)
-
 ---
 
 ## ⚙️ Run Locally
@@ -45,17 +42,6 @@ Then open [http://localhost:8080](http://localhost:8080)
 
 ---
 
-## 🐳 Docker Run
-
-```bash
-docker build -t weather-app .
-docker run -p 8080:80 weather-app
-```
-
-Visit [http://localhost:8080](http://localhost:8080)
-
----
-
 ## ☁️ AWS Deployment Steps
 
 ### 1. Create S3 Bucket
@@ -68,13 +54,6 @@ Visit [http://localhost:8080](http://localhost:8080)
 - Origin: S3 Website Endpoint
 - Enable HTTPS
 - Copy CloudFront domain for public access
-
-### 3. Setup CI/CD via GitHub Actions
-- Add the following **repository secrets** in GitHub:
-  - `AWS_ACCESS_KEY_ID`
-  - `AWS_SECRET_ACCESS_KEY`
-
-GitHub Actions automatically deploys to S3 and invalidates CloudFront cache whenever you push to `main`.
 
 ---
 
