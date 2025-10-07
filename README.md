@@ -1,6 +1,6 @@
 # 🌦️ AWS Weather App – S3 + CloudFront + GitHub Actions
 
-A simple static weather web app deployed using **Amazon S3** (for hosting), **CloudFront** (for CDN & HTTPS), and **GitHub Actions** (for CI/CD).
+A simple static weather web app deployed using **Amazon S3** (for hosting), **CloudFront** (for CDN & HTTPS).
 
 ---
 
