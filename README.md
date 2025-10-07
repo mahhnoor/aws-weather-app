@@ -8,7 +8,7 @@ A simple static weather web app deployed using **Amazon S3** (for hosting), **Cl
 
 Below is the simplified architecture of this project:
 
-![Architecture Diagram](images/architecture-diagram.png)
+![Architecture Diagram](images/image-architecture.png)
 
 ---
 
@@ -16,7 +16,8 @@ Below is the simplified architecture of this project:
 
 **CloudFront URL:** [https://d1dazoh1i65v03.cloudfront.net](https://d1dazoh1i65v03.cloudfront.net)
 
-![Frontend Screenshot](images/image-02-s3.png)
+![Frontend Screenshot](images/image-https-link.png)
+![Frontend Screenshot](images/image-02-app.png)
 
 ---
 
